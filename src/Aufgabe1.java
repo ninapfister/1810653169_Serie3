@@ -18,5 +18,11 @@ public class Aufgabe1
 
             default: System.err.println("Fehler!");
         }
+
+        Person nina = new Person();
+        nina.name = "Nina";
+        nina.alter = 21;
+        nina.printPerson();
+
     }
 }
